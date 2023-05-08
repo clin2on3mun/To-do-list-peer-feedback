@@ -15,7 +15,6 @@ export const display = () => {
     activity.forEach((item, indexNo) => {
       item.index = indexNo+1;
       const list = document.createElement('li');
-      // list.id = indexNo;
       list.className = 'task';
 
       const checkbox = document.createElement('input');
